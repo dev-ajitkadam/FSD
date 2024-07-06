@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: rgb(240, 229, 211);
+}
+
+/* Navber css */
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+.nav-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#input-box{
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    background-color: rgb(196, 223, 232);
+    margin-left: 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: end;
+}
+ul > li{
+    text-decoration: none;
+    text-decoration-style: none;
+    margin-left: 30px;
+    list-style: none;
+}
+#nav-hr {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+/* Main body css */
+
+.mains{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90vh;
+}
+
+.corner-sidebar{
+    width: 25%;
+    height: 70vh;
+    margin: 2rem 2rem 1rem 2rem;
+    border-radius: 10px;
+   
+}
+
+/* main profile section */
+#corner1{
+    background-color: whitesmoke;
+}
+.div1{
+    background-image: url("./media/background.jpg");
+    height: 5rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#logos{
+    border: 2px solid white;
+    border-radius: 50rem;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+}
+.div2{
+    width: 100%;
+    height: 15rem;
+    background-color: #c85959;
+
+
+}
+
+/* main middle section */
+.middle-sidebar{
+    width: 50%;
+    height: 70vh;
+    background-color: #ffffff;
+    margin: 2rem auto 1rem auto;
+
+}

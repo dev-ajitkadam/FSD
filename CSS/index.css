@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+h1{
+    background-color: blueviolet;
+    color: aqua;
+    width: 5px;
+    height: 5px;
+    padding: 100px;
+    margin: 10% auto 10% auto;
+    border: 2px solid salmon;
+    border-radius: 50rem;
+    -webkit-border-radius: 50rem;
+    -moz-border-radius: 50rem;
+    -ms-border-radius: 50rem;
+    -o-border-radius: 50rem;
+}
+
+p{
+    font-size: medium;
+    word-spacing: 5px;
+    line-height: 50px;
+    color: blue;
+    background-color: wheat;
+    font-weight: 700;
+    width: 100rem;
+}
